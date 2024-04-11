@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    list-style: none;
+  }
+body{ 
+    display: flex;
+    flex-flow: column;
+    background-image: url(/Images/landingBackground.png);
+    background-size: 100vw;
+}
+header {
+    display: flex;
+    flex-flow: column;
+}
+.headertxt {
+    width: fit-content;
+    margin-left: 6vw;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 3vh;
+}
+
+.navbar {
+    padding-left: 10vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 2vh;
+    background-color: rgba(0, 0, 0, 0.92);
+    
+}
+.navList {
+    display: flex;
+    flex-flow: row;
+}
+.navList > * {
+    margin-right: 1vw;
+}
+.homeButton a,
+.aboutButton a,
+.contactButton a {
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    padding: .75vw;
+    border: transparent .1vw;
+    border-radius: 5px;
+}
+.homeButton a:hover,
+.aboutButton a:hover,
+.contactButton a:hover {
+    background-color:rgb(46, 46, 46);
+
+}
+
+.firstContainer{
+    display: flex;
+    flex-flow: column;
+    height: fit-content;
+    height: 100vh;
+}
+.logo {
+    height: 20vh;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#largeLogo {
+    height: 20vh;
+    width: 15vw;
+    background-color:rgba(186, 186, 186, 0.895);
+
+}
+
+.landingPara {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 40vw;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.paraHeader > h2 {
+    color: rgb(232, 78, 36);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1vh;
+}
+.paraHeader > h1 {
+    color: beige;
+    font-size: 4rem;
+}
+.divider {
+    width: 5vw;
+    height: 1vh;
+    background-color: rgb(232, 78, 36);
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.paraTxt > p {
+    color: beige;
+    margin-top: .5vh;
+    font-size: 1.5rem;
+}
