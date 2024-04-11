@@ -43,15 +43,12 @@ header {
     background-color:rgb(46, 46, 46);
 
 }
-.logoText{
-    margin-left: 20vw;
-    font-size: 3vh;
-}
 #largeLogo {
-    width: 40dvw;
+    height: 60vh;
+    width: 40vh;
 }
 .logo {
-    width: 40dvw;
+    height: 60vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,14 +60,6 @@ header {
     height: 100vh;
 }
 
-#rightHeader {
-    width: 30vw;
-    font-size: 7vh;
-    letter-spacing: .1vw;
-    padding-left: 8vw;
-    padding-top: 17vw;
-    font-family: 'Times New Roman', Times, serif;
-}
 #projectButton {
     text-decoration: none;
     height: auto;
@@ -78,7 +67,7 @@ header {
     font-size: 3vh;
     text-align: center;
     background-color: black;
-    padding: 1vw;
+    padding: 1vh;
     border: solid black 1px;
     border-radius: 30vw;
     margin-left: auto;
